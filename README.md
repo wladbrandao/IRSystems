@@ -6,7 +6,7 @@ Este repositório apresenta um conjunto de materiais sobre sistemas de recupera�
 Existe uma confusão feita por muitas pessoas quanto aos conceitos de banco de dados, bases de informação e bases de conhecimento, em grande parte oriunda da imprecisão semântica na definição dos conceitos de **dado**, **informação** e **conhecimento**. Longe de buscar uma definição universal para tais conceitos, cabe aqui estabelecer uma definição que ajude a eliminar esta imprecisão semântica.
 
 <p align="center">
-<img width="700" vspace="20" src="nosql/images/Data2Wisdom.jpg">
+<img width="700" vspace="20" src="Data2Wisdom.jpg">
 </p>
 
 Por **dado** entende-se um conjunto de códigos, símbolos ou sinais capazes de serem assimilados sensorialmente, sendo eles decifráveis ou não. Por exemplo, um desenho feito à mão em pedra por homens das cavernas pode conter símbolos não decifráveis, mas ainda assim são símbolos que podem ser assimilados sensorialmente. Por **informação** entende-se uma ideia, um conceito com semântica bem definida. Por exemplo, a partir do momento em que um símbolo (hipoteticamente *nuvem*) presente em um desenho é decifrado e associado mentalmente a um objeto (conjunto de propriedades reconhecidas), temos uma ideia, uma informação. Já por **conhecimento** entende-se uma cadeia de correlações entre ideias. Por exemplo, a partir do momento em que associamos a ideia de *trovão* e *nuvem* podemos estabelecer uma correlação com a ideia *chuva*.
@@ -15,12 +15,10 @@ Por mais que os conceitos de dado, informação e conhecimento estejam relaciona
 
 ## Sistemas de Recuperação de Informação
 
-Sistemas de banco de dados referem-se ao conjunto de dados relacionados e sua respectiva forma de acesso e organiza&ccedil;&atilde;o, sendo compostos por uma cole&ccedil;&atilde;o de dados organizados (banco de dados), uma estrutura l&oacute;gica determinando a forma como os dados podem ser armazenados, organizados e manipulados (modelo de dados), e um software que prov&ecirc; acesso ao banco de dados a usu&aacute;rios e aplica&ccedil;&otilde;es (sistema gerenciador de banco de dados).
+Sistemas de recuperação de informação referem-se ao conjunto de dados relacionados e sua respectiva forma de acesso e organiza&ccedil;&atilde;o, sendo compostos por uma cole&ccedil;&atilde;o de dados organizados (banco de dados), uma estrutura l&oacute;gica determinando a forma como os dados podem ser armazenados, organizados e manipulados (modelo de dados), e um software que prov&ecirc; acesso ao banco de dados a usu&aacute;rios e aplica&ccedil;&otilde;es (sistema gerenciador de banco de dados).
 
-## Sistemas de Banco de Dados Relacionais
-
+### Máquinas de Busca
 Sistemas de banco de dados relacionais referem-se aos sistemas compostos por bancos de dados que adotam um modelo de dados relacional para organizar dados de forma tabular como uma coleção de tabelas em que cada uma delas consiste em um conjunto de linhas e colunas, bem como pelo software gerenciador do banco de dados capaz de armazenar e processar dados relacionais de forma segura e eficiente. Nesses sistemas a descrição formal dos dados é fornecida previamente pelos metadados descritivos presentes no esquema de dados.
 
-## Sistemas de Banco de Dados NoSQL
-
+### Recomendadores
 Sistemas de banco de dados NoSQL referem-se aos sistemas compostos por bancos de dados que não adotam um modelo de dados relacional para armazenamento persistente de volumes massivos de dados (*big data*), bem como pelo software gerenciador do banco de dados capaz de armazenar e processar dados não relacionais de forma segura e com alto desempenho. Estes sistemas são muitas vezes utilizados para superar as barreiras de escalabilidade e impedância presentes nos sistemas de banco de dados relacionais. Muitos deles operam em *cluster* computacional e sem um esquema de dados predefinido.
